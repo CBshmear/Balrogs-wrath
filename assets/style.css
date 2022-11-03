@@ -13,7 +13,7 @@ body {
 body p {
     font-size: 17px;
 }
-
+/*header contains nav bar*/
 header {
     display: flex;
     width: auto;
@@ -57,7 +57,7 @@ main {
     margin: 2rem auto;
     display: block;
 }
-
+/*Styles Hero image*/
 .hero {
     display: flex;
     padding-top: 20px;
@@ -70,7 +70,7 @@ main {
     background-size: cover;
     background-position: center;
 }
-
+/*Styles about me section*/
 .about-container {
     display: flex;
     flex-direction: column;
@@ -82,7 +82,7 @@ main {
     padding: 5px;
 }
 
-
+/*Styles work links*/
 .work-container {
     display: flex;
     flex-direction: row;
@@ -104,6 +104,7 @@ main {
     justify-content: end;
     border-left: solid 3px black;
 }
+/*Styles headers in box links*/
 .box-header {
     border: solid 2px #5EBEC4;
     margin-left: 10.5rem;
@@ -118,6 +119,7 @@ main {
     background-color:#5EBEC4;
     margin-top: -17px; 
 }
+/*styles two different types of box links*/
 .box-1 {
     margin: 10px;
     flex:3;
@@ -135,7 +137,7 @@ main {
     background-image: url("https://tse1.mm.bing.net/th?id=OIP.JLrO9JEKDmVWufFXNDSjQwAAAA&pid=Api&P=0");
     opacity: .5; 
 }
-
+/*creates red background on hover over <a> tags*/
 a:hover {
     background-color:#F92C85;
     opacity: 1;
@@ -145,7 +147,7 @@ a:hover {
     display:flex;
     justify-content: center;
 }
-
+/*optimizes viewport for smaller devices*/
   @media screen and (max-width:992px) {
     .about-container, .nav-container, .header, .hero  {
         width: 100%;
@@ -170,7 +172,6 @@ a:hover {
         height: 300px;
         margin-top: 20px;
         padding: 0.5rem;
-       /* flex-wrap: wrap;*/
     }
     .work-container {
         flex-direction: column;
