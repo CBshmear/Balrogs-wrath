@@ -6,6 +6,6 @@ A portfolio for my deployed projects. This page contains some links to other pro
 ## Credits
 
 ## Link to deployed product
-https://cbshmear.github.io/mein-portfolio/ 
+https://cbshmear.github.io/Balrogs-wrath/
 
 ## Mock-up
