@@ -7,6 +7,7 @@ body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.75rem;
     background-color: rgb(251, 251, 250);
+    margin:0;
 
 
 
@@ -18,9 +19,10 @@ header {
     height: 150px;
     margin: 0 auto;
     padding: 2.5rem;
-    background-color: rgb(218, 223, 224);
+    background-color: rgb(92, 219, 232);
     margin-top: auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
     
     
 }
@@ -30,12 +32,16 @@ header p {
     font-weight: bold;
 }
 
-#nav {
-    display: inline;
-    position: absolute;
-    top:25%;
-    right: 1%;
+.nav-container {
+    display: flex;
+    justify-content: flex-end;
+}
+.nav {
+    
+    
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(251, 251, 250);
+   
 }
 
 h1{
@@ -52,75 +58,85 @@ main {
 }
 
 .hero {
-    height: 600px;
+    display: flex;
+    flex: 1 1 100%;
+    height: 300px;
     width: 100%;
     margin: 0 auto;
-    background-image: url("https://img.freepik.com/free-photo/work-space-laptop-blank-screen-wooden-table_93675-128555.jpg?w=2000");
+    background-image: url("https://tse2.explicit.bing.net/th?id=OIP.jHEwgIq4EuUO_PhicVzW7QHaBo&pid=Api&P=0");
     background-size: cover;
     background-position: center;
 
 }
 
-.justify-center {
-    justify-content: center;
+
+
+
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    border-left: solid 2px black;
+
+}
+
+
+.work-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-left: solid 3px black;
+    width: 95%;
+    flex-wrap: wrap;
     
 }
 
-.row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-left: -1.5rem;
-    margin-right: -1.5rem;
-
+.work-container a  {
+    border: solid 3px rgb(92, 219, 239);
+    padding: 15px;
 }
 
-.card-column {
-    flex: 1 0 100%;
-    padding: 1.5rem;
-    /* when the screen resizes, make it so our columns don't jump in size */
-    transition: flex-basis 500ms linear;
-    margin-bottom: 1.5rem;
-  }
+.box-header {
+    border: solid 2px rgb(92, 219, 239);
+    margin-left: 10.5rem;
+    margin-top: -17px;
+    background-color: rgb(92, 219, 239);
+}
 
+.box-header2 {
+    
+    
+    border: solid 3px rgb(92, 219, 239);
+    background-color:rgb(92, 219, 232);
+    margin-top: -17px;
+    
+}
+.box-1 {
+    margin: 10px;
+    width: 300px;
+    height: 400px;
+    background-image: url("https://user-images.githubusercontent.com/112667575/197658945-3bafafde-fa60-41f3-9e8d-2590f85df2e8.png");
+}
 
-.about  {
-    display: flex;
-    width: 33%;
-    height: 200px;
-    border: solid blue 2px;
-    content: center;
-    background-color: grey;
-    justify-content: end;
+.box-2 {
+    margin: 10px;
+    flex: 2;
+    background-color:rgb(179, 180, 180);
+    width: 50px;
+    height: 150px;
+    background-image: url("https://media1.giphy.com/media/1ken0zzzL79NPy3QZj/200w.webp?cid=ecf05e47obsp35tpwpkyfl50fzeq6g8f8pf4fep9x72raa4w&rid=200w.webp&ct=g");
+    
 }
 
 
 
-.code-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    min-height: 100%;
-    padding: 2rem;
-    color: var(--heliotrope);
-    outline: 2px dashed var(--gin);
-    outline-offset: -2px;
-    transition: all 0.5s ease-in-out;
-}  
-
-.code-card .card-header {
-    /* use position and negative margins to move title of card over the card's outline and create an overlap effect */
-    position: relative;
-    margin: -4rem 0 1.5rem 0;
-    padding: 0.5rem 1rem;
-    background-color: var(--outer-space);
-    color: var(--heliotrope);
-    border: 2px solid var(--gin);
-    border-radius: 8px;
-    transition: all 0.5s ease-in-out;
-  }
 
 
+.footer {
+    display:flex;
+    justify-content: center;
+
+}
 
 
 
