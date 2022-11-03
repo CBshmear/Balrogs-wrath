@@ -10,8 +10,8 @@ https://cbshmear.github.io/Balrogs-wrath/
 
 ## Mock-up
 
-md
-![alt text]("\assets\images\Screenshot 2022-11-03 183219.png")
+![Screenshot 2022-11-03 183219](https://user-images.githubusercontent.com/112667575/199854714-cb38d37b-090f-47a3-85ee-b5bc990c4fed.png)
+
 
 ## Credits
 
