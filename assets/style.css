@@ -1,3 +1,6 @@
+
+
+
 * {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
@@ -5,21 +8,29 @@
 
 body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 1.75rem;
-    background-color: rgb(251, 251, 250);
+    font-size: 1.5rem;
+    background-color: #FDF5DF;
     margin:0;
 
 
 
 }
 
+body p {
+    font-size: 17px;
+}
+
 header {
-    display: block;
+    display: flex;
     width: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
     height: 150px;
     margin: 0 auto;
     padding: 2.5rem;
-    background-color: rgb(92, 219, 232);
+    background-color: #5EBEC4;
     margin-top: auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
@@ -34,8 +45,8 @@ header p {
 
 .nav-container {
     display: flex;
-    justify-content: flex-end;
 }
+
 .nav {
     
     
@@ -59,11 +70,13 @@ main {
 
 .hero {
     display: flex;
+    padding-top: 20px;
     flex: 1 1 100%;
     height: 300px;
-    width: 100%;
-    margin: 0 auto;
-    background-image: url("https://tse2.explicit.bing.net/th?id=OIP.jHEwgIq4EuUO_PhicVzW7QHaBo&pid=Api&P=0");
+    width: 35%;
+    margin:0 auto;
+    margin-top: 20px;
+    background-image: url("https://tse3.mm.bing.net/th?id=OIP.3AIxFL7MhY84CbQs-H4mjgHaE8&pid=Api&P=0");
     background-size: cover;
     background-position: center;
 
@@ -77,58 +90,74 @@ main {
     display: flex;
     flex-direction: column;
     border-left: solid 2px black;
-
+    justify-content: flex-start;
+    width: 100%;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 
 .work-container {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
     border-left: solid 3px black;
-    width: 95%;
+    width: 100%;
     flex-wrap: wrap;
+    flex-basis: 1 1 50%;
     
 }
 
 .work-container a  {
-    border: solid 3px rgb(92, 219, 239);
+    border: solid 3px #5EBEC4;
     padding: 15px;
 }
 
+.container-3 {
+    display: flex;
+    justify-content: end;
+    border-left: solid 2px black;
+}
 .box-header {
-    border: solid 2px rgb(92, 219, 239);
+    border: solid 2px #5EBEC4;
     margin-left: 10.5rem;
     margin-top: -17px;
-    background-color: rgb(92, 219, 239);
+    background-color: #5EBEC4;
 }
 
 .box-header2 {
     
-    
-    border: solid 3px rgb(92, 219, 239);
-    background-color:rgb(92, 219, 232);
+    display: block;
+    box-sizing: border-box;
+    border: solid 3px #5EBEC4;
+    background-color:#5EBEC4;
     margin-top: -17px;
     
 }
 .box-1 {
     margin: 10px;
-    width: 300px;
-    height: 400px;
+    flex:3;
+    height: 170px;
     background-image: url("https://user-images.githubusercontent.com/112667575/197658945-3bafafde-fa60-41f3-9e8d-2590f85df2e8.png");
+    opacity: .5;
 }
 
 .box-2 {
     margin: 10px;
-    flex: 2;
+    flex: 1;
     background-color:rgb(179, 180, 180);
     width: 50px;
     height: 150px;
-    background-image: url("https://media1.giphy.com/media/1ken0zzzL79NPy3QZj/200w.webp?cid=ecf05e47obsp35tpwpkyfl50fzeq6g8f8pf4fep9x72raa4w&rid=200w.webp&ct=g");
+    background-image: url("https://tse1.mm.bing.net/th?id=OIP.JLrO9JEKDmVWufFXNDSjQwAAAA&pid=Api&P=0");
+    opacity: .5;
     
 }
 
-
+a:hover {
+    background-color:#F92C85;
+    opacity: 1;
+}
 
 
 
@@ -141,13 +170,22 @@ main {
 
 
   @media screen and (max-width:992px) {
-    section {
+    .about-container, .nav-container, .header, .hero {
         width: 50%;
+        display: flex;
     }
   }
 
   @media screen and (max-width:768px) {
-    section {
+    .about-container, .nav-container, .header, .hero {
         width:100%;
+        display: flex;
+    }
+  }
+
+  @media screen and (max-width:500px) {
+    .about-container, .nav-container, .header, .hero {
+        width: 100%;
+        display: flex;
     }
   }
