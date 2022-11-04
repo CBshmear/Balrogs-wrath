@@ -4,6 +4,12 @@
 
 This page contains some links to other projects I have deployed. Previously, I had no place to group and display my works. I wanted to remedy this. Quite frankly, it taught me alot about CSS styling. The capabilities of CSS are impressive to say the least.  Long story short, this repository functions as a placeholder for my current and future works. 
 
+## Issues Faced
+
+The links' background images kept blocking the hover effect I attempted to add. remedied this by varying the opacity of certain elements.
+The webpage was not responsive to viewing on smaller devices. I used media queries to remedy this.
+
+
 ## Link to deployed product
 
 https://cbshmear.github.io/Balrogs-wrath/
