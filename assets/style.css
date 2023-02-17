@@ -130,10 +130,10 @@ main {
 .box-2 {
   margin: 10px;
   flex: 1;
-  background-color: rgb(179, 180, 180);
+  background-color: #f92c85;
   width: 50px;
   height: 150px;
-  background-image: url("https://tse1.mm.bing.net/th?id=OIP.JLrO9JEKDmVWufFXNDSjQwAAAA&pid=Api&P=0");
+
   opacity: 0.5;
 }
 .box-3 {
